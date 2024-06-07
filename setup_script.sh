@@ -11,7 +11,6 @@ sudo apt upgrade -y
 sudo apt auto remove -y
 
 # common programs
-sudo apt remove w3m -y
 sudo apt install git -y
 sudo apt install gh -y
 sudo apt install stow -y
@@ -32,3 +31,5 @@ sudo apt install fish -y
 
 # install Starship for Fish
 curl -sS https://starship.rs/install.sh | sh
+
+sudo apt remove w3m -y
