@@ -15,4 +15,6 @@ You will have to load git first, to be able to clone the repository. You will al
 
 - ```bash
   wget https://github.com/ICS4U-Templates/.dotfiles-Pi_02W/releases/download/V0.1.0/setup_script.sh
+  chmod +x ./setup_script.sh
+  ./setup_script.sh
   ```
