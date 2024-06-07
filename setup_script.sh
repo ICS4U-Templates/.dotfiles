@@ -12,11 +12,7 @@ sudo apt install gh -y
 sudo apt install stow -y
 sudo apt install neofetch -y
 
-# install NeoVim from latest release
-curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
-sudo rm -rf /opt/nvim
-sudo tar -C /opt -xzf nvim-linux64.tar.gz
-sudo rm nvim-linux64.tar.gz
+# install NeoVim, new version, now part of Rasbian :)
 
 # install languages
 curl -fsSL https://bun.sh/install | bash
