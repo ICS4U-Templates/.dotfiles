@@ -14,5 +14,5 @@ You will have to load git first, to be able to clone the repository. You will al
 - change instances in `/etc/apt/sources.list` to "bookworm" and then run:
 
 - ```bash
-  curl -s -L https://github.com/ICS4U-Templates/.dotfiles-Pi_02W/releases/download/V0.0.1/setup_script.sh| bash
+  wget https://github.com/ICS4U-Templates/.dotfiles-Pi_02W/releases/download/V0.1.0/setup_script.sh
   ```
