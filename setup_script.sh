@@ -16,6 +16,7 @@ sudo apt install neofetch -y
 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
 sudo rm -rf /opt/nvim
 sudo tar -C /opt -xzf nvim-linux64.tar.gz
+sudo rm nvim-linux64.tar.gz
 
 # install languages
 curl -fsSL https://bun.sh/install | bash
