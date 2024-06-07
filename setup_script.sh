@@ -8,7 +8,7 @@ sudo apt upgrade --without-new-pkgs
 sudo apt full-upgrade
 sudo apt update
 sudo apt upgrade -y
-sudo apt auto remove -y
+sudo apt autoremove -y
 
 # common programs
 sudo apt install git -y
