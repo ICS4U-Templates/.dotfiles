@@ -8,6 +8,7 @@ sudo apt upgrade --without-new-pkgs
 sudo apt full-upgrade
 sudo apt update
 sudo apt upgrade -y
+sudo apt auto remove -y
 
 # common programs
 sudo apt remove w3m -y
