@@ -7,8 +7,12 @@ You will have to load git first, to be able to clone the repository. You will al
 
 ## Terminal Setup Command
 
-Change `/etc/apt/sources.list` to "bookworm" and then run:
+- `sudo raspi-config`
+  - setup wireless
+  - expand file system
 
-```bash
-curl -s -L https://github.com/ICS4U-Templates/.dotfiles-Pi_02W/releases/download/V0.0.1/setup_script.sh| bash
-```
+- change instances in `/etc/apt/sources.list` to "bookworm" and then run:
+
+- ```bash
+  curl -s -L https://github.com/ICS4U-Templates/.dotfiles-Pi_02W/releases/download/V0.0.1/setup_script.sh| bash
+  ```
