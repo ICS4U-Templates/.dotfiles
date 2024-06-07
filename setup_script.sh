@@ -4,6 +4,9 @@
 # Pi Zero 2 W .dotfiles and setup script
 
 sudo apt update
+sudo apt upgrade --without-new-pkgs
+sudo apt full-upgrade
+sudo apt update
 sudo apt upgrade -y
 
 # common programs
